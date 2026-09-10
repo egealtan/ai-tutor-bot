@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 
-@dataclass(slots=True)
+@dataclass
 class RetrievedChunk:
     id: int
     filename: str
@@ -12,7 +12,7 @@ class RetrievedChunk:
     score: float
 
 
-@dataclass(slots=True)
+@dataclass
 class TutorResult:
     answer: str
     sources: list[RetrievedChunk] = field(default_factory=list)

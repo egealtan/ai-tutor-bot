@@ -1,0 +1,57 @@
+_student_question,ai_tutor_response,expected_output,expert_notes,is_accurate,error_notes
+What is 98.6 degrees Fahrenheit on the Kelvin scale?,"Using the conversion between Fahrenheit and Kelvin (via Celsius):
+
+1) Convert °F to °C: 
+
+° C = (° F - 32)× (5)/(9) = (98.6-32)×(5)/(9) = 37.0° C
+
+
+2) Convert °C to K: 
+
+K = ° C + 273.15 = 37.0 + 273.15 = 310.2 K
+
+
+**So, 98.6°F = 310.2 K.**",98.6°F is 310.2 K.,Correct conversion showing all steps. Arrives at 310.15 K which rounds to the expected 310.2 K.,Pass,
+What is the difference between precision and accuracy in measurements?,I could not find enough support in the uploaded course materials to answer that confidently.,Accuracy describes how close a measurement is to the true or accepted value. Precision describes how close repeated measurements are to one another.,Retrieval failure. Precision vs accuracy in measurements is a core topic covered in any introductory chemistry course.,Fail,
+Do leading zeros count as significant figures?,"Leading zeros **do not** count as significant figures. They are only used to show the position of the first nonzero digit (e.g., in a decimal like 0.006606 s, the zeros before the 6 are not significant).",No. Leading zeros do not count as significant figures because they only locate the decimal point.,Correctly states leading zeros are not significant and provides a clear example.,Pass,
+What does atomic mass on the periodic table represent?,"On the periodic table, **atomic mass represents the weighted average mass of an element’s atoms**, accounting for the fact that most elements occur as a **mixture of isotopes**. 
+
+More specifically, it’s the **sum of each isotope’s mass multiplied by its fractional abundance** (and the displayed number is given to the decimal places recognized by IUPAC).",The atomic mass listed on the periodic table is the weighted average mass of the naturally occurring isotopes of that element.,Correctly explains atomic mass as a weighted average of naturally occurring isotopes.,Pass,
+What is the main idea behind dimensional analysis?,I could not find enough support in the uploaded course materials to answer that confidently.,Dimensional analysis uses conversion factors to cancel unwanted units and introduce the desired units. The method treats units like algebraic quantities.,Retrieval failure. Dimensional analysis is a foundational chemistry skill. The tutor failed to retrieve relevant course material.,Fail,
+What is the difference between mass and weight?,I could not find enough support in the uploaded course materials to answer that confidently.,"Mass is the amount of matter in an object. Weight is the force exerted on that mass by gravity, so weight can change if gravity changes while mass does not.",Retrieval failure. Mass vs weight is a fundamental concept. The tutor should have been able to answer from course materials.,Fail,
+"Where are metals, nonmetals, and metalloids generally found on the periodic table?","- **Metals:** generally found on the **left and lower** parts of the periodic table. 
+- **Nonmetals:** generally found in the **upper right** corner. 
+- **Metalloids (semimetals):** found in the **border region between metals and nonmetals** (the “stair-step” area separating those two groups).",Metals are found mostly on the left and center of the periodic table. Nonmetals are mainly on the upper right. Metalloids lie along the stair-step boundary between them.,"Correctly locates metals, nonmetals, and metalloids. Minor: says 'left and lower' vs expected 'left and center' but both are acceptable descriptions.",Pass,
+Is salt dissolved in water homogeneous or heterogeneous? What about iron filings mixed with sulfur powder?,"- **Salt dissolved in water:** **Homogeneous mixture (a solution).** When salt dissolves, you can’t easily tell that more than one substance is present by looking, even with a microscope.
+
+- **Iron filings mixed with sulfur powder:** **Heterogeneous mixture.** It’s easy to see which particles are iron and which are sulfur, so the mixture isn’t uniformly mixed.",Salt dissolved in water is a homogeneous mixture because it has a uniform composition throughout. Iron filings mixed with sulfur powder are a heterogeneous mixture because the different substances remain visibly distinct.,Correctly identifies salt water as homogeneous and iron filings with sulfur as heterogeneous with clear reasoning.,Pass,
+What is the basic difference between solids and liquids?,"The basic difference is how easily particles move:
+
+- **Both** solids and liquids have particles in contact with each other.
+- **In solids**, **intermolecular forces are strong enough to hold particles in place**, so solids **maintain their shape** and are **difficult to compress**.
+- **In liquids**, the intermolecular forces are **not strong enough to completely hold particles in fixed positions**, so liquids **don’t maintain a fixed shape** and instead **take the shape of their containers**.","Solids retain their own shape, while liquids flow and take the shape of their container. Both have definite volume, but liquids do not have definite shape.",,Pass,
+What is molarity?,"**Molarity (M)** is a concentration unit defined as the **number of moles of solute divided by the number of liters of solution**:
+
+
+Molarity (M)=(moles of solute)/(liters of solution)
+
+
+So, if you know moles and liters, you can find molarity, and if you know two of the three quantities (moles, liters, molarity), you can calculate the third.",Molarity is a concentration unit defined as moles of solute per liter of solution.,,Pass,
+"What are the s block, p block, d block, and f block on the periodic table?","On the periodic table, the blocks are arranged according to which **subshells** are being filled:
+
+- **s block:** the **first two columns on the left** of the periodic table 
+- **p block:** the **right-most six columns** 
+- **d block:** the **middle 10 columns** 
+- **f block:** the **14-column section** typically shown detached from the main table (though it could be part of the main body)","The blocks of the periodic table show which type of subshell is being filled by the highest-energy electrons. The left two columns are the s block, the right six columns are the p block, the middle ten columns are the d block, and the detached bottom rows are the f block.",,Pass,
+What does heat capacity describe?,"In this context, **heat capacity** (or **specific heat capacity/specific heat**) describes **how much energy is needed to change a substance’s temperature**.
+
+- **Larger specific heat** → **more energy** required for the same temperature change (so the temperature changes less for a given amount of heat).
+- It relates heat and temperature change by: **q = mcΔ T**, where q is heat (energy transferred), m is mass, c is specific heat, and Δ T is the temperature change.",Heat capacity describes how much heat is needed to raise the temperature of a sample by a certain amount.,,Pass,
+What is density in chemistry?,"In chemistry, **density** is a **physical property** defined as:
+
+
+density=(mass)/(volume)
+
+
+So density tells you how much **mass** a substance has per unit **volume**. Common units include **g/mL** (or equivalently **g/cm³**), **g/L**, **kg/L**, and **kg/m³**.",Density is the amount of mass in a given volume of a substance. It is calculated as mass divided by volume.,,Pass,
+How many meters are in 5.0 kilometers?,I could not find enough support in the uploaded course materials to answer that confidently.,"5.0 kilometers equals 5,000 meters because 1 kilometer is 1,000 meters.",,Fail,

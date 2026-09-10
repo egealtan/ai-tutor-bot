@@ -9,7 +9,7 @@ from pypdf import PdfReader
 from app.config import settings
 
 
-@dataclass(slots=True)
+@dataclass
 class RawChunk:
     filename: str
     page_number: int
